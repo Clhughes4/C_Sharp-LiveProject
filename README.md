@@ -8,6 +8,8 @@ Below are some of the stories I worked along with their descriptions aand some c
 ## Story -- Cleaning Up the Subcriber Class
 - There was an issue when the subscriber index was set up and I had to make sure the string primary key passed in can be handeled properly.
 
+![](Images/SubscriberClassStory.png)
+
 ### Edit View
 - I had to modify the Edit view to display the User associated with the Subscriber, but not allow that User to be changed. At the same time making sure to display the first and the last name of the Subscriber to all the other views.
 
@@ -111,6 +113,9 @@ Below are some of the stories I worked along with their descriptions aand some c
 ## Story -- Front End Subcriber Index: Creating the Dashboard
 - Created the entire dashboard for the Subscriber to manage their account
 ### Controller
+
+![](Images/Dashboard.png)
+
 ```cs
 namespace TheatreCMS.Areas.Subscribers.Controllers
 {
@@ -321,6 +326,8 @@ namespace TheatreCMS.Areas.Subscribers.Controllers
 ```
 
 ### Edit View
+
+![](Images/EditView.png)
 
 ```cshtml
 @using (Html.BeginForm())
