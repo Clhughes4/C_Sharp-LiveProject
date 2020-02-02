@@ -1,15 +1,15 @@
 # C_Sharp-LiveProject
 
 ## Introduction
-For my final two weeks with the Tech academy I took part in building and designing a software application for a theator company to manage all of their website content, requiring no technical competency. Much of the website and front-end design had yet to be constructed, so much of the app wasnt visually appealing, and most of the work which had been completed was all on the back end. As a software developer I very early could see the importance and usefulness of the frontend and backend of a software program. It is important to mantain an eqaul balance with front and back end development because without each there is no way to pull data from the database or for that data to be presented to the user. There were times I came to a cross road or had no idea of how to proceed with the assigned task, but through the value of research and the utilization of team collaboration I conquered the obstacles in my path or the mind fog I experienced. This live experience working on a team helped me to further understand what the day and a life of a software developer truly is. 
+For my final two weeks with the Tech academy I took part in building and designing a software application for a theater company to manage all of their website content, requiring no technical competency. Much of the website and front-end design had yet to be constructed, so much of the app wasn't visually appealing, and most of the work which had been completed was all on the back end. As a software developer I very early could see the importance and usefulness of the frontend and backend of a software program. It is important to maintain an equal balance with front and back end development because without each there is no way to pull data from the database or for that data to be presented to the user. There were times I came to a cross road or had no idea of how to proceed with the assigned task, but through the value of research and the utilization of team collaboration I conquered the obstacles in my path or the mind fog I experienced. This live experience working on a team helped me to further understand what the day and a life of a software developer truly is. 
+ 
+Below are some of the stories I worked along with their descriptions and some code snippets.
 
-Below are some of the stories I worked along with their descriptions aand some code snippets.
-
-## Story -- Cleaning Up the Subcriber Class
-- There was an issue when the subscriber index was set up and I had to make sure the string primary key passed in can be handeled properly.
-
+## Story -- Cleaning Up the Subscriber Class
+- There was an issue when the subscriber index was set up and I had to make sure the string primary key passed in can be handled properly.
+ 
 ![](Images/SubscriberClassStory.png)
-
+ 
 ### Edit View
 - I had to modify the Edit view to display the User associated with the Subscriber, but not allow that User to be changed. At the same time making sure to display the first and the last name of the Subscriber to all the other views.
 
@@ -70,7 +70,7 @@ Below are some of the stories I worked along with their descriptions aand some c
 ```
 
 ### Index View
-- To present the whole Subscriber's name, I seperated the first and last into their own column
+- To present the whole Subscriber's name, I separated the first and last into their own column
 
 ```cshtml
 @model IEnumerable<TheatreCMS.Areas.Subscribers.Models.Subscriber>
@@ -133,8 +133,7 @@ namespace TheatreCMS.Areas.Subscribers.Controllers
 ```
 
 ### Subscriber View
-- Used cards to hold the upcoming shows and used flexboxes to hold the the logged in subscribers info to the dashboard. The other flex box was used to hold the calender.
-
+- Used cards to hold the upcoming shows and used flexboxes to hold the logged in subscribers info to the dashboard. The other flex box was used to hold the calendar.
 ```cshtml
 @using Microsoft.AspNet.Identity
 @model TheatreCMS.Areas.Subscribers.Models.Subscriber
